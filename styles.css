@@ -1,0 +1,110 @@
+body {background: rgb(0, 0, 0);
+    font: 100% sans-serif;
+    /*--para centrar body--*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {box-sizing: border-box;}
+
+div.post {background: white;
+padding-bottom: 2%;
+}
+
+div {margin: 0;}
+
+/* ----------------------------------ENCABEZADO-----------------------------------------*/
+div.post-header {
+    width: 100%;
+    margin: 0;
+    padding-top: 1%;
+}
+
+#iconhtml, #trespuntos {
+        font-size: 4vh;
+        place-content: center;
+}
+
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 5%;
+    padding-left: 1%;
+   /* background: red;*/
+}
+div.post .post-header div:nth-child(2){
+    display: inline-block;
+    width: 20%;
+    padding-left: 2%;
+    /*background: yellow;*/
+}  
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 75%;
+    text-align: right;
+    padding-right: 2%;
+    /*background: blue;*/
+}
+
+
+/* ----------------------------------PUBLICACION-----------------------------------------*/
+
+div.post-img img{
+    width: 100%;
+    margin: 0;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+
+/* ----------------------------------CUERPO CUPLICACIO-----------------------------------------*/
+div.post-body .icon {
+    width: 100%;
+    font-size: 4vh;
+}
+
+div.icon {margin:0;
+padding-bottom: 1%;}
+
+
+div.post-body .icon div:first-child{
+    display: inline-block;
+    width: 10%;
+    padding-left: 1%;
+    padding-right: 2%;
+    /*background: red;*/
+}
+
+div.post-body .icon div:nth-child(2){
+    display: inline-block;
+    width: 9%;
+    padding-right: 0%;
+   /* background: yellow;*/
+}
+
+div.post-body .icon div:nth-child(3){
+    display: inline-block;
+    width: 10%;
+    padding-right: 2%;
+    /*background: orange;*/
+}  
+
+div.post-body .icon div:last-child{
+    display: inline-block;
+    width: 71%;
+    text-align: right;
+    padding-right: 3%;
+    /*background: blue;*/
+}
+
+#likes, #comment {
+    padding-left: 1%;
+    padding-right: 3%;
+}
+
+div.post {width: 500px;
+    margin: auto;}
+
+
